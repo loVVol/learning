@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="@drawable/jiaocheng"
+		android:layout_weight="1.0"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="如果要实现自动检测更新的话，就把代码放到载入事件中。\n修改的话你只需要改QQ收藏链接就是了，后台跟着图片写就是了。\n其他代码就不要乱改了。"
+		android:background="#FF00AA"
+		android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+
