@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+	<TextView
+		android:id="@+id/flowspeed"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerInParent="true"
+		android:text="@string/float_text"
+		android:textColor="#FFFFFFFF"/>
+
+	<Button
+		android:id="@+id/hideBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/flowspeed"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="15dp"
+		android:contentDescription="@string/hide"
+		android:text="@string/hide"/>
+
+	<Button
+		android:id="@+id/updateBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/hideBtn"
+		android:layout_centerInParent="true"
+		android:contentDescription="@string/update"
+		android:paddingTop="15dp"
+		android:text="@string/update"/>
+
+	<TextView
+		android:id="@+id/usage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/updateBtn"
+		android:layout_centerInParent="true"
+		android:paddingTop="15dp"
+		android:text="@string/float_text"
+		android:textColor="#000000"/>
+
+</RelativeLayout>
+

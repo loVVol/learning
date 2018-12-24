@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xuanfuchuang</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="float_text">float_text</string>
+	<string name="hide">hide</string>
+	<string name="update">update</string>
+</resources>
